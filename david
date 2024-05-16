@@ -1,0 +1,51 @@
+if GameId == 286090429 then
+local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
+local Window = OrionLib:MakeWindow({Name = "Maverick Hub", HidePremium = false, SaveConfig = true, ConfigFolder = "MaverickHub"})
+]]
+
+local Tab = Window:MakeTab({
+	Name = "Main",
+	Icon = "nil",
+]]
+
+OrionLib:MakeNotification({
+	Name = "Maverick Hub",
+	Content = "Executed script!",
+	Image = "nil",
+	Time = 5
+]]
+
+local Section = Tab:AddSection({
+	Name = "Arsenal Script"
+})
+loadstring(game:HttpGet("https://raw.githubusercontent.com/cris123452/my/main/cas",true))()
+--[[
+
+
+]]
+
+elseif GameId == 606849621 then
+
+local Window = OrionLib:MakeWindow({Name = "Jailbreak Auto Rob", HidePremium = false, SaveConfig = true, ConfigFolder = "AutoRobMaverick"})
+local Tab = Window:MakeTab({
+	Name = "Script",
+	Icon = "nil",
+
+Tab:AddButton({
+	Name = "Auto Rob V4",
+	Callback = function()
+      		print("button pressed")
+  	end    
+})
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Pxsta72/ProjectAuto/main/AutoRobV4Release"))()
+--[[
+
+Callback = <function> - The function of the button.
+]]
+})
+
+--[[
+Name = <string> - The name of the tab.
+Icon = <string> - The icon of the tab.
+PremiumOnly = <bool> - Makes the tab accessible to Sirus Premium users only.
+]]            
